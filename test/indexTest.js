@@ -13,6 +13,7 @@ describe('moveDodgerLeft()', () => {
     newPosition = parseInt(newPosition)
 
     expect(newPosition).to.be.below(left)
+  
   })
 })
 
